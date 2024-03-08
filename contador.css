@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.encabezado {
+    background-color: #000000;
+    color: #adff2f;
+    text-align: center;
+}
+
+.contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numero {
+    color: #0000ff;
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.botones {
+    width: 250px;
+    display: inherit;
+    justify-content: space-between;
+}
+
+.botones > * {
+    border: black solid medium;
+    border-radius: 5px;
+    padding: 5px;
+}
