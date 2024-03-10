@@ -36,4 +36,5 @@
     border: black solid medium;
     border-radius: 5px;
     padding: 5px;
+    cursor: pointer;
 }

@@ -28,4 +28,5 @@ decrementar.addEventListener('click', () =>{
 
 reiniciar.addEventListener('click', () =>{
     numero.innerText = '0';
+    numero.style.color = 'blue';
 })
